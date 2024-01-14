@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "8ed231b7-b59f-9fb4-380e-10f1025badc4",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "Sparkles",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5396987024302640912, 12915032092117524900)",
+    "references": []
+  }
+]

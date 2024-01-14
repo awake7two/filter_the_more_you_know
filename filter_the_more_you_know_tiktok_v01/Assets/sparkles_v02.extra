@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "65d30144-755d-7cc8-a2e8-b6d5aafe36c6",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "sparkles_v02",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

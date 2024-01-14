@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "8683de26-102e-f1d8-e6b9-3f621b3a4b85",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "sparkles_v02",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "de689d8e-3f01-0cc8-94dc-bb90a27358c4"
+    ],
+    "animazGUIDs": []
+  }
+]
