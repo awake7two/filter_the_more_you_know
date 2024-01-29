@@ -91,10 +91,10 @@
 			"displayTypeKey": "graph_type_string",
 			"value_list_i18n_keys": [
 				"graph_transit_by_time_input_interpolator_valueList_linear",
-				"graph_transit_by_time_input_interpolator_valueList_ease-in",
-				"graph_transit_by_time_input_interpolator_valueList_ease-out",
-				"graph_transit_by_time_input_interpolator_valueList_ease-in-out",
-				"graph_transit_by_time_input_interpolator_valueList_ease-out-in"
+				"graph_transit_by_time_input_interpolator_valueList_easein",
+				"graph_transit_by_time_input_interpolator_valueList_easeout",
+				"graph_transit_by_time_input_interpolator_valueList_easeinout",
+				"graph_transit_by_time_input_interpolator_valueList_easeoutin"
 			]
 		},
 		{

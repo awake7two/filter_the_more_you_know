@@ -1,19 +1,19 @@
 %YAML 1.1
 --- !Scene &1
-name: ""
+name: !<str> ""
 guid: {a: 7875085725817850609, b: 329766013828765107}
 editSceneGuid: {a: 0, b: 0}
-calibrateVer: V5
+calibrateVer: !<str> V5
 entities:
   - __class: Entity
-    name: Camera
+    name: !<str> Camera
     guid: {a: 10180214583793075010, b: 13085474825770890632}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 2}
       - __class: Camera
-        name: ""
+        name: !<str> ""
         guid: {a: 18393534764065644695, b: 16547619468206596491}
         enabled: true
         layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
@@ -35,14 +35,14 @@ entities:
         isRootCamera: false
     layer: 0
   - __class: Entity
-    name: General
+    name: !<str> General
     guid: {a: 8235238043598186243, b: 16840308208679013795}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 3}
       - __class: EffectNode
-        name: ""
+        name: !<str> ""
         guid: {a: 14792803682663561050, b: 6161520050080348315}
         enabled: true
         outputTextures:
@@ -58,14 +58,14 @@ entities:
           value: OpenGLES30
     layer: 0
   - __class: Entity
-    name: Directional Light
+    name: !<str> Directional Light
     guid: {a: 815069582473778930, b: 3860102513852982437}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 4}
       - __class: DirectionalLight
-        name: ""
+        name: !<str> ""
         guid: {a: 8739102965005804130, b: 6461487404246441657}
         enabled: true
         color: {x: 1, y: 1, z: 1}
@@ -102,14 +102,14 @@ entities:
           value: Lux
     layer: 0
   - __class: Entity
-    name: Environment Light
+    name: !<str> Environment Light
     guid: {a: 11406181728386468509, b: 5972158861532600762}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 5}
       - __class: Envmap
-        name: ""
+        name: !<str> ""
         guid: {a: 16737500510660696093, b: 7610174286501797273}
         enabled: true
         envmapLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
@@ -119,7 +119,7 @@ entities:
         rotation: 0
     layer: 0
   - __class: Entity
-    name: SkeletonAndRenderRoot
+    name: !<str> SkeletonAndRenderRoot
     guid: {a: 4841425488436899617, b: 5034701672723714485}
     scene: {localId: 1}
     selfvisible: true
@@ -127,14 +127,14 @@ entities:
       - {localId: 6}
     layer: 0
   - __class: Entity
-    name: sparkles_v01
+    name: !<str> sparkles_v01
     guid: {a: 5140765747891025929, b: 16439558663722610346}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 7}
       - __class: MeshRenderer
-        name: mesh0_renderer
+        name: !<str> mesh0_renderer
         guid: {a: 5531357188386065835, b: 16964438698914616206}
         enabled: true
         sharedMaterials:
@@ -151,17 +151,17 @@ entities:
         castShadow: false
     layer: 0
   - __class: Entity
-    name: Hand Tracker
+    name: !<str> Hand Tracker
     guid: {a: 5121138592073545367, b: 8760863977813116320}
     scene: {localId: 1}
     selfvisible: true
     components:
       - {localId: 8}
       - __class: JSScriptComponent
-        name: ""
+        name: !<str> ""
         guid: {a: 5614591771889778438, b: 5452538726358367623}
         enabled: true
-        path: js/HandCapture.js
+        path: !<str> js/HandCapture.js
         properties:
           __class: Map
           distanceToScreen: 20
@@ -169,7 +169,7 @@ entities:
           rotateAxisZ: false
     layer: 0
   - __class: Entity
-    name: Cube
+    name: !<str> Cube
     guid: {a: 4624923628572909129, b: 6605667171074364546}
     scene: {localId: 1}
     selfvisible: true
@@ -181,19 +181,19 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: _4X
+  value: NONE
 jsScriptSystems:
-  - js/GraphSystem.js
-  - js/Main.js
-  - js/JSAssetSystem.js
+  - !<str> js/GraphSystem.js
+  - !<str> js/Main.js
+  - !<str> js/JSAssetSystem.js
 enableMultiTouch: false
 enableLightMultiPass: false
 pixelLightCount: 4
 resourceRendererType:
   __class: RendererType
-  value: "Null"
+  value: OpenGLES30
 --- !Transform &2
-name: ""
+name: !<str> ""
 guid: {a: 14145000689903744101, b: 6111037265461598351}
 enabled: true
 localPosition: {x: 0, y: 0, z: 40}
@@ -204,7 +204,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &3
-name: ""
+name: !<str> ""
 guid: {a: 12629985132416961300, b: 14387677276955654788}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
@@ -220,7 +220,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &4
-name: ""
+name: !<str> ""
 guid: {a: 15367742060568528024, b: 10146237304508457363}
 enabled: true
 localPosition: {x: -30, y: 20, z: -20}
@@ -231,7 +231,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &5
-name: ""
+name: !<str> ""
 guid: {a: 2038139312557020282, b: 1886311758165782682}
 enabled: true
 localPosition: {x: 0, y: 30, z: 0}
@@ -242,7 +242,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &6
-name: SkeletonAndRenderRoot
+name: !<str> SkeletonAndRenderRoot
 guid: {a: 5125599555778619275, b: 7234013261645812383}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
@@ -255,7 +255,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &7
-name: sparkles_v01
+name: !<str> sparkles_v01
 guid: {a: 5052701407525414525, b: 6599154649477528233}
 enabled: true
 localPosition: {x: -1e-15, y: 0, z: 0}
@@ -266,7 +266,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &8
-name: ""
+name: !<str> ""
 guid: {a: 4969828204576972175, b: 9739175994620637317}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
@@ -279,7 +279,7 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &9
-name: ""
+name: !<str> ""
 guid: {a: 4631998093622034729, b: 16784062656636681125}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}

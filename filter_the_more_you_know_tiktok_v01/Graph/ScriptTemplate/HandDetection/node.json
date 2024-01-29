@@ -15,8 +15,8 @@
 			"descriptionKey": "graph_hand_detection_input_type_description",
 			"displayTypeKey": "graph_type_string",
 			"value_list_i18n_keys": [
-				"graph_hand_detection_input_type_valueList_single_hand",
-				"graph_hand_detection_input_type_valueList_both_hands"
+				"graph_hand_detection_input_type_valueList_singlehand",
+				"graph_hand_detection_input_type_valueList_bothhands"
 			]
 		}
 	],
